@@ -1,4 +1,4 @@
-name: 'Setup Merry'
+name: 'Setup Merry Action'
 description: 'Set up Merry multi-chain testing environment'
 author: 'Abdul Sahil <sahil@hashira.io>'
 runs:
