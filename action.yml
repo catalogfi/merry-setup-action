@@ -1,5 +1,7 @@
 name: 'Setup Merry Action'
-icon : activity
+branding:
+  icon: 'activity'
+  color: 'orange'
 description: 'Set up Merry multi-chain testing environment'
 author: 'Abdul Sahil <sahil@hashira.io>'
 runs:
