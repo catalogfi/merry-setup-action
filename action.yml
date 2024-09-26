@@ -1,0 +1,16 @@
+name: 'Setup Merry'
+description: 'Set up Merry multi-chain testing environment'
+author: 'Abdul Sahil <sahil@hashira.io>'
+runs:
+  using: 'composite'
+  steps:
+    - name: Install dependencies
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl git
+        
+    - name: Download and install Merry
+      shell: bash
+      run: |
+        curl -sSL https://get.merry.dev | bash
