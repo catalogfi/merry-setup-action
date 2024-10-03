@@ -29,7 +29,7 @@ To use **Merry Action** in your GitHub Actions workflow, follow these steps:
 
        steps:
        - name: Set up Merry
-         uses: catalogfi/merry-action@main
+         uses: catalogfi/merry-setup-action@main
    ```
 
    You can confirm the installation by adding:
